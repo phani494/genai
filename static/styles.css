@@ -1,0 +1,63 @@
+
+body {
+    background: linear-gradient(135deg, #3b8d99, #6b6b83, #2c3e50);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+.btn:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+#historyButton {
+    background-color: #17a2b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#historyButton:hover {
+    background-color: #138496;
+    transform: scale(1.1);
+}
+
+
+#historySection .list-group-item {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+
+@media (max-width: 768px) {
+    #historyButton {
+        margin-top: 10px;
+    }
+}
